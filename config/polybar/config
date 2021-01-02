@@ -45,7 +45,6 @@ overline-size = 0
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-
 module-margin-left = 0
 module-margin-right = 1
 
@@ -78,8 +77,8 @@ click-right = chromium https://studio.youtube.com &
 type = internal/xwindow
 label = %title:0:30:...%
 
-format-underline =
-format-background =
+format-underline = ${colors.background}
+format-background = ${colors.background}
 format-padding =
 
 [module/bspwm]
@@ -102,8 +101,8 @@ label-empty = %name%
 label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 1
 
-format-underline =
-format-background =
+format-underline = ${colors.background}
+format-background = ${colors.background}
 format-padding =
 scroll-up = bspwm-desknext
 scroll-down = bspwm-deskprev

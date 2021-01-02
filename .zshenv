@@ -1,4 +1,8 @@
 typeset -U PATH path
+export GTK_IM_MODULE='fcitx'
+export QT_IM_MODULE='fcitx'
+export SDL_IM_MODULE='fcitx'
+export XMODIFIERS='@im=fcitx'
 
 # Other XDG paths
 export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
@@ -28,6 +32,7 @@ export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
 export ZDOTDIR=$HOME/.config/zsh
 export HISTFILE="$XDG_DATA_HOME"/zsh/history
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/ripgrep/ripgreprc"
 
 # Scaling
 export QT_AUTO_SCREEN_SCALE_FACTOR=0
@@ -49,16 +54,11 @@ export OPENER="xdg-open"
 export PAGER="less"
 export WM="bspwm"
 
-export CM_SELECTIONS="clipboard"
-export CM_DEBUG=0
-export CM_OUTPUT_CLIP=1
-export CM_MAX_CLIPS=10
-
 # Path
 path=("$HOME/scripts" "$HOME/scripts/alsa" "$HOME/scripts/dragon" "$HOME/scripts/lf" "$HOME/scripts/i3" "$HOME/scripts/pulse"
 	"$HOME/scripts/polybar" "$HOME/scripts/bspwm" "$HOME/scripts/lemonbar" "$HOME/scripts/transmission"
-	"$HOME/bin/tweetdeck-linux-x64" "$XDG_DATA_HOME/gems/bin" "$HOME/go/bin" "$HOME/.cargo/bin"
-	"$XDG_DATA_HOME/npm/bin" "$path[@]")
+	"$HOME/bin/tweetdeck-linux-x64" "$XDG_DATA_HOME/ruby/gems/bin" "$HOME/go/bin" "$HOME/.local/share/cargo/bin"
+	"$XDG_DATA_HOME/npm/bin" "$HOME/.local/bin" "$path[@]")
 export PATH
 
 export LF_ICONS="\

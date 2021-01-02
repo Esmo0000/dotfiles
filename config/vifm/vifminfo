@@ -26,120 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/brodie/.local
-	include
-2
-d/home/brodie
-	.local
-5
-d/home/brodie/.local
-	include
-2
-d/home/brodie
-	.w3m
-11
-d/home/brodie/.w3m
-	cookie
-1
-d/home/brodie
-	.w3m
-11
-d/home
-	brodie
-1
-d/
-	home
-4
-d/home/brodie/.config
-	..
-0
-d/home/brodie
-	.config
-4
-d/home
-	brodie
-1
-d/home/brodie
-	desktop
-19
-d/home/brodie/desktop
-	..
-0
-d/home/brodie
-	.config
-4
-d/home/brodie/.config
-	bashtop
-17
-d/home/brodie/.config/bashtop
-	themes
-1
-d/home/brodie/.config
-	autostart
-15
-d/home/brodie
-	.config
-4
-d/home/brodie/.config
-	BraveSoftware
-2
-d/home/brodie
-	.goneovim
-8
-d/home/brodie/.goneovim
-	..
-0
-d/home/brodie
-	.mozilla
-11
-d/home/brodie/.mozilla
-	..
-0
-d/home/brodie
-	.thumbnails
-14
-d/home/brodie/.thumbnails
-	normal
-2
-d/home/brodie/.thumbnails/normal
-	0a65edf3ade86bb38ad1cbcd7d0477e2.png
-2
-d/home/brodie/.thumbnails
-	normal
-2
-d/home/brodie
-	.zoom
-18
-d/home/brodie/videos/anime
-	[HorribleSubs] Ahiru no Sora - 35 [1080p].mkv
-2
-d/home/brodie
-	.w3m
-16
-d/home
-	brodie
-1
-d/
-	home
-4
-d/home/brodie
-	pictures
-25
-d/home/brodie/pictures
-	50 Views.png
-14
-d/home/brodie
-	.mozilla
-11
-d/home/brodie/.mozilla
-	..
-0
-d/home/brodie
-	.mozilla
-11
-d/home/brodie/.mozilla
-	..
-0
 d/home/brodie
 	.zoom
 18
@@ -326,6 +212,120 @@ d/home/brodie/.config
 d/home/brodie/.config/vifm
 	vifmrc
 5
+d/home/brodie
+	.thumbnails
+17
+d/home/brodie/.thumbnails
+	normal
+2
+d/home/brodie/.config
+	greenclip.cfg
+8
+d/home/brodie
+	.thumbnails
+9
+d/home/brodie/.config
+	greenclip.cfg
+39
+d/home/brodie
+	.bash_profile
+33
+d/home
+	brodie
+1
+d/
+	home
+4
+d/home/brodie
+	documents
+23
+d/home/brodie/.config
+	X11
+4
+d/home/brodie/.config/X11
+	xmodmap
+2
+d/home/brodie
+	documents
+18
+d/home/brodie/.config
+	vifm
+18
+d/home/brodie/.config/vifm
+	..
+0
+d/home/brodie/.config
+	powerline-shell
+4
+d/home/brodie/scripts
+	transmission
+4
+d/home/brodie/.config
+	envman
+5
+d/home/brodie/.config/envman
+	load.sh
+2
+d/home/brodie/.config
+	easytag
+4
+d/home/brodie/.config/easytag
+	search_file.history
+6
+d/home/brodie/.config
+	vifm
+27
+d/home/brodie/.config/vifm
+	scripts
+2
+d/home/brodie/.config
+	vifm
+27
+d/home/brodie/.config/vifm
+	vifminfo
+4
+d/home/brodie/.config
+	vifm
+18
+d/home/brodie/.config/vifm
+	vifminfo
+4
+d/home/brodie/pictures
+	art.xcf
+23
+d/home/brodie
+	vifmimg
+33
+d/home/brodie/vifmimg
+	vifmimg
+5
+d/home/brodie/scripts
+	vifminfo
+47
+d/home/brodie/.config
+	vifm
+26
+d/home/brodie/.config/vifm
+	vifminfo
+4
+d/home/brodie/scripts
+	.git
+1
+d/home/brodie
+	music
+28
+d/home/brodie/music
+	temp
+1
+d/home/brodie/music/temp
+	..
+0
+d/home/brodie/music
+	..
+0
+d/home/brodie
+	VirtualBox VMs
+23
 d
 
 # Right window history (oldest to newest):
@@ -335,6 +335,7 @@ D/home/brodie
 D
 
 # Command line history (oldest to newest):
+:move ~/scripts
 :filter 
 :touch 
 :mkdir 
@@ -399,6 +400,9 @@ D
 /zshe
 /*.*
 /vif
+/Xau
+/gre
+/X11
 /vifm
 
 # Prompt history (oldest to newest):
@@ -410,7 +414,8 @@ pvdeos
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/brodie/.local/share/vifm/Trash/000_alsavolctrl
+""/home/brodie/.local/share/vifm/Trash/003_.Xauthority-c
+""/home/brodie/.local/share/vifm/Trash/003_.Xauthority-l
 
 # Directory stack (oldest to newest):
 
@@ -423,6 +428,20 @@ t/home/brodie/.local/share/vifm/Trash/001_watermark.png
 	/home/brodie/watermark.png
 t/home/brodie/.local/share/vifm/Trash/000_test
 	/home/brodie/test
+t/home/brodie/.local/share/vifm/Trash/001_.Xauthority-c
+	/home/brodie/.Xauthority-c
+t/home/brodie/.local/share/vifm/Trash/001_.Xauthority-l
+	/home/brodie/.Xauthority-l
+t/home/brodie/.local/share/vifm/Trash/000_hyper
+	/home/brodie/.config/hyper
+t/home/brodie/.local/share/vifm/Trash/000_vifmrc
+	/home/brodie/scripts/vifmrc
+t/home/brodie/.local/share/vifm/Trash/000_vifminfo
+	/home/brodie/scripts/vifminfo
+t/home/brodie/.local/share/vifm/Trash/000_vifmimg
+	/home/brodie/scripts/vifmimg
+t/home/brodie/.local/share/vifm/Trash/000_vifmrun
+	/home/brodie/scripts/vifmrun
 
 # State:
 f/^p.*c/

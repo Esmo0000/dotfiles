@@ -1,8 +1,7 @@
-set previewer ~/.config/lf/preview
 # Basic Settings
+set previewer ~/scripts/lf/preview
 set preview true
 set hidden true
-set color256 true
 set drawbox true
 set icons true
 set ignorecase true
@@ -11,7 +10,6 @@ set ignorecase true
 cmd open ${{
     case $(file --mime-type "$f" -bL) in
         text/*|application/json) $EDITOR "$f";;
-        video/*|image/*/application/pdf) xdg-open "$f";;
         *) xdg-open "$f" ;;
     esac
 }}
@@ -137,16 +135,6 @@ map c
 map e
 map f
 
-# Not really image preview
-map - $~/.config/lf/draw_img "$f"
-
-cmd video_preview ${{
-    CACHE=$(mktemp /tmp/thumb_cache.XXXXX)
-    ffmpegthumbnailer -i "$f" -o $CACHE -s 0
-    ~/.config/lf/draw_img $CACHE && rm $CACHE
-}}
-map + :video_preview
-
 # File Openers
 map ee $$EDITOR "$f"
 map u $view "$f"
@@ -261,3 +249,5 @@ map gl cd ~/.local
 map gE cd /etc
 map gU. cd /usr
 map gUs cd /usr/share
+
+map \;j cd ~

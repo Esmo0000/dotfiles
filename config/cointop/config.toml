@@ -82,7 +82,7 @@ refresh_rate = 60
   "}" = "last_chart_range"
 
 [favorites]
-  names = ["TRON", "Bitcoin Cash", "NEXO", "Basic Attention Token", "XRP", "Tezos", "KuCoin Shares", "Bitcoin", "Polkadot", "BitTorrent", "ChainLink", "Cardano", "LBRY Credits", "SelfKey", "Ethereum", "Aave", "Hive", "Stellar"]
+  names = ["Stellar", "Ethereum", "SelfKey", "Basic Attention Token", "XRP", "BitTorrent", "Polkadot", "Cardano", "TRON", "ChainLink", "Bitcoin Cash", "NEXO", "Bitcoin", "KuCoin Shares", "Tezos", "LBRY Credits", "Aave", "Hive"]
 
 [portfolio]
   BitTorrent = 0.0

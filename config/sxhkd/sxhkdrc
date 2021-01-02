@@ -55,6 +55,22 @@ super + {0-9}
 super + alt + {Left, Right}
   crystal --focus {prev, next}
 
+# Close all receptacle
+super + shift + i
+  for win in `bspc query -N -n .leaf.\!window`; do bspc node $win -k ; done;
+
+# Insert receptacle
+super + i; {h,j,k,l}
+  bspc node --presel-dir {west,south,north,east} -i
+
+# Move to rectacle
+super + r
+  bspreceptacle
+
+# Balance nodes
+super + e
+  bspc node @/ -B
+
 # Expand a window by moving one of its side outward
 ctrl + alt + {h,j,k,l}
 	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
@@ -70,21 +86,6 @@ ctrl + alt + {Left,Right,Up,Down}
 # Dropdown terminal
 super + alt + Return
 	tdrop -ma -w 1916 -y 0 st
-
-#---Tabbing---#
-# Prompt to open new app as a new tab
-#super + t; d
-#    tabdmenu
-
-# Add focused window to a tabbed instance in given direction
-# super + t; {h,j,k,l}
-#     tabc add {west,south,north,east} "$(bspc query -N -n focused)"
-
-# Remove one tab from tabbed
-# super + t; r
-#     tabbed=$(bspc query -N -n focused); \
-#     child=$(tabc list $tabbed | head -n1); \
-#     tabc remove $child
 
 #---System Control---#
 # Restart hotkey damon
@@ -105,8 +106,8 @@ super + shift + c
   toggleprogram "picom" "--experimental-backends"
 
 #---Script Keys---#
-super + {x, u, t, w, i, g, a, p, m}
-  {dmonitor "DisplayPort-0" "HDMI-A-0", updatepackages, notifytorrents, devenv, importandroid, openterminalin, dcalc, cpcolor, notifycrypto}
+super + {x, u, t, p, m}
+  {dmonitor "DisplayPort-0" "DisplayPort-1" "HDMI-A-0", updatepackages, notifytorrents, cpcolor, notifycrypto}
 
 super + {b, c, e}
   {bookmenu -p "Select a bookmark" -b ~/.config/bookmenu/browser -co $BROWSER, bookmenu -p "Select a config" -b ~/.config/bookmenu/configs -co "$TERMINAL -e nvim"}
@@ -127,6 +128,8 @@ F7
 #
 #super + F4
 #  alsavolctrl All mute
+super + F1
+	$TERMINAL -e ncmpcpp
 
 # Pulse Controls
 super + {F3, F2}
@@ -135,18 +138,24 @@ super + {F3, F2}
 super + F4
   pulsevolctrl "output-mute" "alsa_output.pci-0000_0b_00.4.analog-stereo"
 
+super + F9
+	thunderbird
+
 # Media Controls
+super + F1
+	$TERMINAL -e ncmpcpp
+
 super + F8
-  playerctl next
+  playerctl -p "mpd" next
 
 super + F6
-  playerctl previous
+  playerctl -p "mpd" previous
 
 super + F7
-  playerctl play-pause
+  playerctl -p "mpd" play-pause
 
 super + F5
-  playerctl stop
+  playerctl -p "mpd" stop
 
 super + slash
   songnotification
@@ -162,7 +171,7 @@ Print
 Print + shift
 	flameshot gui
 
-Print + control
+Print + super
 	flameshot screen -p ~/pictures/screenshots
 
 # Print
@@ -184,11 +193,11 @@ super + d
 super + Return
   $TERMINAL
 
-super + alt + {k, o, g, b, e, f, v, s, d}
-  {kdenlive, obs, gimp, $BROWSER, thunderbird, pcmanfm, virtualbox, spotify, discord-canary}
+super + alt + {k, o, g, b, f, v, s, d}
+  {kdenlive, obs, gimp, $BROWSER, pcmanfm, virtualbox, spotify, discord-canary}
 
 super + s
-	clipmenu
+	greenclip_run
 
 super + q
   brave https://studio.youtube.com
