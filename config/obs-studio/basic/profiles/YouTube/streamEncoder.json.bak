@@ -2,6 +2,6 @@
     "bitrate": 10000,
     "level": 40,
     "profile": 578,
-    "qp": 5,
+    "qp": 19,
     "rate_control": "CQP"
 }

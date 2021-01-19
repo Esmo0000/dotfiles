@@ -17,7 +17,7 @@
                 "monitoring_type": 0,
                 "muted": false,
                 "name": "Noise Suppression",
-                "prev_ver": 436207618,
+                "prev_ver": 436273152,
                 "private_settings": {},
                 "push-to-mute": false,
                 "push-to-mute-delay": 0,
@@ -42,7 +42,7 @@
                 "monitoring_type": 0,
                 "muted": false,
                 "name": "Noise Gate",
-                "prev_ver": 436207618,
+                "prev_ver": 436273152,
                 "private_settings": {},
                 "push-to-mute": false,
                 "push-to-mute-delay": 0,
@@ -68,7 +68,7 @@
                 "monitoring_type": 0,
                 "muted": false,
                 "name": "Compressor",
-                "prev_ver": 436207618,
+                "prev_ver": 436273152,
                 "private_settings": {},
                 "push-to-mute": false,
                 "push-to-mute-delay": 0,
@@ -96,7 +96,7 @@
         "monitoring_type": 0,
         "muted": false,
         "name": "Mic/Aux",
-        "prev_ver": 436207618,
+        "prev_ver": 436273152,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -126,7 +126,7 @@
         "monitoring_type": 0,
         "muted": false,
         "name": "Desktop Audio",
-        "prev_ver": 436207618,
+        "prev_ver": 436273152,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -150,6 +150,9 @@
             "non_matching_scene": "",
             "switch_if_not_matching": false,
             "switches": []
+        },
+        "decklink_captions": {
+            "source": ""
         },
         "output-timer": {
             "autoStartRecordTimer": false,
@@ -203,22 +206,22 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "xcomposite_input",
+            "id": "image_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Browser2",
-            "prev_ver": 436207618,
+            "name": "Guest",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "capture_window": "8388779\r\nNew Tab - Brave\r\nbrave-browser"
+                "file": "/home/brodie/desktop/uuGN4mOS_400x400.jpg"
             },
             "sync": 0,
-            "versioned_id": "xcomposite_input",
+            "versioned_id": "image_source",
             "volume": 1.0
         },
         {
@@ -232,15 +235,15 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "BackgroundVideo2",
-            "prev_ver": 436207618,
+            "name": "Background2",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "/home/brodie/videos/podcast/Art/Video Background/2 People/Background - 2 People Names Video.png"
+                "file": "/home/brodie/videos/podcast/Art/Video Background/2 People/Background - 2 People Names.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -252,23 +255,216 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
-            "id": "xcomposite_input",
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_NUM1"
+                    }
+                ],
+                "libobs.hide_scene_item.Background2": [],
+                "libobs.hide_scene_item.Cam1": [],
+                "libobs.hide_scene_item.Desktop Audio": [],
+                "libobs.hide_scene_item.Guest": [],
+                "libobs.hide_scene_item.Mic/Aux": [],
+                "libobs.show_scene_item.Background2": [],
+                "libobs.show_scene_item.Cam1": [],
+                "libobs.show_scene_item.Desktop Audio": [],
+                "libobs.show_scene_item.Guest": [],
+                "libobs.show_scene_item.Mic/Aux": []
+            },
+            "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Cam1",
-            "prev_ver": 436207618,
+            "name": "Main",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "capture_window": "31457315\r\nerror\r\ndiscord"
+                "custom_size": false,
+                "id_counter": 19,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 235,
+                        "crop_left": 9,
+                        "crop_right": 957,
+                        "crop_top": 265,
+                        "group_item_backup": false,
+                        "id": 12,
+                        "locked": false,
+                        "name": "Cam1",
+                        "pos": {
+                            "x": 926.0,
+                            "y": 386.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0688172578811646,
+                            "y": 1.0687023401260376
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 223,
+                        "crop_left": 967,
+                        "crop_right": 15,
+                        "crop_top": 252,
+                        "group_item_backup": false,
+                        "id": 10,
+                        "locked": false,
+                        "name": "Cam1",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 325.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0623632669448853,
+                            "y": 1.061930775642395
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 18,
+                        "locked": false,
+                        "name": "Guest",
+                        "pos": {
+                            "x": 1125.0,
+                            "y": 380.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.4750000238418579,
+                            "y": 1.4750000238418579
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Background2",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Desktop Audio",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 16,
+                        "locked": false,
+                        "name": "Mic/Aux",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 1.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
             },
             "sync": 0,
-            "versioned_id": "xcomposite_input",
+            "versioned_id": "scene",
             "volume": 1.0
         },
         {
@@ -301,7 +497,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "VideoView",
-            "prev_ver": 436207618,
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -526,216 +722,23 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [
-                    {
-                        "key": "OBS_KEY_NUM1"
-                    }
-                ],
-                "libobs.hide_scene_item.Background2": [],
-                "libobs.hide_scene_item.Cam1": [],
-                "libobs.hide_scene_item.Desktop Audio": [],
-                "libobs.hide_scene_item.Guest": [],
-                "libobs.hide_scene_item.Mic/Aux": [],
-                "libobs.show_scene_item.Background2": [],
-                "libobs.show_scene_item.Cam1": [],
-                "libobs.show_scene_item.Desktop Audio": [],
-                "libobs.show_scene_item.Guest": [],
-                "libobs.show_scene_item.Mic/Aux": []
-            },
-            "id": "scene",
+            "hotkeys": {},
+            "id": "xcomposite_input",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Main",
-            "prev_ver": 436207618,
+            "name": "Cam1",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "custom_size": false,
-                "id_counter": 19,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 235,
-                        "crop_left": 9,
-                        "crop_right": 957,
-                        "crop_top": 265,
-                        "group_item_backup": false,
-                        "id": 12,
-                        "locked": false,
-                        "name": "Cam1",
-                        "pos": {
-                            "x": 926.0,
-                            "y": 386.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0688172578811646,
-                            "y": 1.0687023401260376
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 223,
-                        "crop_left": 967,
-                        "crop_right": 15,
-                        "crop_top": 252,
-                        "group_item_backup": false,
-                        "id": 10,
-                        "locked": false,
-                        "name": "Cam1",
-                        "pos": {
-                            "x": -7.0,
-                            "y": 375.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0623632669448853,
-                            "y": 1.061930775642395
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 18,
-                        "locked": false,
-                        "name": "Guest",
-                        "pos": {
-                            "x": 1125.0,
-                            "y": 380.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.4750000238418579,
-                            "y": 1.4750000238418579
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 1,
-                        "locked": false,
-                        "name": "Background2",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 2,
-                        "locked": false,
-                        "name": "Desktop Audio",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 16,
-                        "locked": false,
-                        "name": "Mic/Aux",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 1.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
+                "capture_window": "23068713\r\nTech Over Tea Episode 46 | Jitsi Meet - Brave\r\nbrave-browser"
             },
             "sync": 0,
-            "versioned_id": "scene",
+            "versioned_id": "xcomposite_input",
             "volume": 1.0
         },
         {
@@ -749,15 +752,15 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Background2",
-            "prev_ver": 436207618,
+            "name": "BackgroundVideo2",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "/home/brodie/videos/podcast/Art/Video Background/2 People/Background - 2 People Names.png"
+                "file": "/home/brodie/videos/podcast/Art/Video Background/2 People/Background - 2 People Names Video.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -770,22 +773,22 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "image_source",
+            "id": "xcomposite_input",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Guest",
-            "prev_ver": 436207618,
+            "name": "Browser2",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "/home/brodie/desktop/uuGN4mOS_400x400.jpg"
+                "capture_window": "8388779\r\nNew Tab - Brave\r\nbrave-browser"
             },
             "sync": 0,
-            "versioned_id": "image_source",
+            "versioned_id": "xcomposite_input",
             "volume": 1.0
         }
     ],

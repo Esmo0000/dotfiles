@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Game",
-    "current_scene": "Game",
+    "current_program_scene": "Ending",
+    "current_scene": "Talking",
     "current_transition": "Custom Transition",
     "groups": [],
     "modules": {
@@ -10,6 +10,9 @@
             "non_matching_scene": "",
             "switch_if_not_matching": false,
             "switches": []
+        },
+        "decklink_captions": {
+            "source": ""
         },
         "output-timer": {
             "autoStartRecordTimer": false,
@@ -81,85 +84,29 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {
-                "linuxbrowser.reloadpage": []
-            },
-            "id": "linuxbrowser-source",
+            "hotkeys": {},
+            "id": "text_ft2_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Chat 4",
-            "prev_ver": 436207618,
+            "name": "YouTube",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "height": 800,
-                "url": "https://streamlabs.com/widgets/chat-box/v1/DE2876362A229DA9C843",
-                "width": 450
+                "font": {
+                    "face": "Bebas Neue",
+                    "flags": 1,
+                    "size": 34,
+                    "style": "Bold"
+                },
+                "text": "BrodieRobertson"
             },
             "sync": 0,
-            "versioned_id": "linuxbrowser-source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "linuxbrowser.reloadpage": []
-            },
-            "id": "linuxbrowser-source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Chat 3",
-            "prev_ver": 436207618,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "height": 550,
-                "url": "https://streamlabs.com/widgets/chat-box/v1/DE2876362A229DA9C843",
-                "width": 420
-            },
-            "sync": 0,
-            "versioned_id": "linuxbrowser-source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "linuxbrowser.reloadpage": []
-            },
-            "id": "linuxbrowser-source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Chat",
-            "prev_ver": 436207618,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "height": 800,
-                "url": "https://streamlabs.com/widgets/chat-box/v1/DE2876362A229DA9C843",
-                "width": 550
-            },
-            "sync": 0,
-            "versioned_id": "linuxbrowser-source",
+            "versioned_id": "text_ft2_source_v2",
             "volume": 1.0
         },
         {
@@ -169,22 +116,28 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "xshm_input",
+            "id": "text_ft2_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "ScreenCapture",
-            "prev_ver": 436207618,
+            "name": "Instagram",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "screen": 0
+                "font": {
+                    "face": "Bebas Neue",
+                    "flags": 1,
+                    "size": 36,
+                    "style": "Bold"
+                },
+                "text": "TechOverTea"
             },
             "sync": 0,
-            "versioned_id": "xshm_input",
+            "versioned_id": "text_ft2_source_v2",
             "volume": 1.0
         },
         {
@@ -193,25 +146,29 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {
-                "linuxbrowser.reloadpage": []
-            },
-            "id": "linuxbrowser-source",
+            "hotkeys": {},
+            "id": "text_ft2_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Alerts",
-            "prev_ver": 436207618,
+            "name": "Twitter",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "url": "https://streamlabs.com/alert-box/v3/DE2876362A229DA9C843?donations=1&sponsors=1&super_chats=1&merch=1&facemaskdonations=1&loyalty_store_redemption=1&prime_sub_gift=1&sponsored_campaign=1"
+                "font": {
+                    "face": "Bebas Neue",
+                    "flags": 1,
+                    "size": 36,
+                    "style": "Bold"
+                },
+                "text": "BrodieOnLinux"
             },
             "sync": 0,
-            "versioned_id": "linuxbrowser-source",
+            "versioned_id": "text_ft2_source_v2",
             "volume": 1.0
         },
         {
@@ -219,6 +176,84 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "noise_suppress_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Noise Suppression",
+                    "prev_ver": 436273152,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "method": "rnnoise"
+                    },
+                    "sync": 0,
+                    "versioned_id": "noise_suppress_filter_v2",
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "noise_gate_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Noise Gate",
+                    "prev_ver": 436273152,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "close_threshold": -70.0,
+                        "open_threshold": -40.0
+                    },
+                    "sync": 0,
+                    "versioned_id": "noise_gate_filter",
+                    "volume": 1.0
+                },
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "compressor_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Compressor",
+                    "prev_ver": 436273152,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "ratio": 4.0
+                    },
+                    "sync": 0,
+                    "versioned_id": "compressor_filter",
+                    "volume": 1.0
+                }
+            ],
             "flags": 0,
             "hotkeys": {
                 "libobs.mute": [],
@@ -226,22 +261,22 @@
                 "libobs.push-to-talk": [],
                 "libobs.unmute": []
             },
-            "id": "pulse_output_capture",
+            "id": "pulse_input_capture",
             "mixers": 193,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Desktop Audio",
-            "prev_ver": 436207618,
+            "name": "Audio Input Capture (PulseAudio)",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "device_id": "alsa_output.pci-0000_0b_00.4.analog-stereo.monitor"
+                "device_id": "alsa_input.usb-Blue_Microphones_Yeti_Stereo_Microphone_797_2018_12_02_00943-00.analog-stereo"
             },
             "sync": 0,
-            "versioned_id": "pulse_output_capture",
+            "versioned_id": "pulse_input_capture",
             "volume": 1.0
         },
         {
@@ -251,61 +286,22 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "text_ft2_source",
+            "id": "xcomposite_input",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Text (FreeType 2) 2",
-            "prev_ver": 436207618,
+            "name": "Window Capture (Xcomposite) 2",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "font": {
-                    "face": "Bebas Neue",
-                    "flags": 1,
-                    "size": 60,
-                    "style": "Bold"
-                },
-                "from_file": true,
-                "text_file": "/home/brodie/videos/streaming/sound.txt"
+                "capture_window": "27262983\r\nBogosort - Wikipedia - Brave\r\nbrave-browser"
             },
             "sync": 0,
-            "versioned_id": "text_ft2_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_ft2_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Text (FreeType 2)",
-            "prev_ver": 436207618,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "font": {
-                    "face": "Bebas Neue",
-                    "flags": 1,
-                    "size": 60,
-                    "style": "Bold"
-                },
-                "from_file": true,
-                "text_file": "/home/brodie/videos/streaming/sound.txt"
-            },
-            "sync": 0,
-            "versioned_id": "text_ft2_source",
+            "versioned_id": "xcomposite_input",
             "volume": 1.0
         },
         {
@@ -325,20 +321,21 @@
                 "libobs.unmute": []
             },
             "id": "ffmpeg_source",
-            "mixers": 196,
+            "mixers": 193,
             "monitoring_type": 0,
             "muted": false,
-            "name": "AlphaGaming-webcam-blank.webm",
-            "prev_ver": 436207618,
+            "name": "AlphaGaming-intermission-ending.webm",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
+                "clear_on_media_end": false,
                 "close_when_inactive": true,
                 "hw_decode": true,
-                "local_file": "/home/brodie/videos/streaming/AlphaGaming-Series-Premium-EN/Files/Animated-Webcam-Overlay/AlphaGaming-webcam-blank.webm",
+                "local_file": "/home/brodie/videos/streaming/AlphaGaming-Series-Premium-EN/Files/Animated-Intermission-Banner/AlphaGaming-intermission-ending.webm",
                 "looping": true
             },
             "sync": 0,
@@ -351,58 +348,29 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
-            "id": "xcomposite_input",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "GameWindow",
-            "prev_ver": 436207618,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "capture_window": "109051924\r\nBastion\r\nBastion.bin.x86_64"
-            },
-            "sync": 0,
-            "versioned_id": "xcomposite_input",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Alerts": [],
-                "libobs.hide_scene_item.AlphaGaming-webcam-blank.webm": [],
+                "libobs.hide_scene_item.AlphaGaming-intermission-ending.webm": [],
                 "libobs.hide_scene_item.Audio Input Capture (PulseAudio)": [],
-                "libobs.hide_scene_item.Chat 4": [],
                 "libobs.hide_scene_item.Desktop Audio": [],
-                "libobs.hide_scene_item.GameWindow": [],
-                "libobs.hide_scene_item.ScreenCapture": [],
-                "libobs.hide_scene_item.Text (FreeType 2) 2": [],
-                "libobs.hide_scene_item.Webcam": [],
-                "libobs.show_scene_item.Alerts": [],
-                "libobs.show_scene_item.AlphaGaming-webcam-blank.webm": [],
+                "libobs.hide_scene_item.Instagram": [],
+                "libobs.hide_scene_item.Text (FreeType 2)": [],
+                "libobs.hide_scene_item.Twitter": [],
+                "libobs.hide_scene_item.YouTube": [],
+                "libobs.show_scene_item.AlphaGaming-intermission-ending.webm": [],
                 "libobs.show_scene_item.Audio Input Capture (PulseAudio)": [],
-                "libobs.show_scene_item.Chat 4": [],
                 "libobs.show_scene_item.Desktop Audio": [],
-                "libobs.show_scene_item.GameWindow": [],
-                "libobs.show_scene_item.ScreenCapture": [],
-                "libobs.show_scene_item.Text (FreeType 2) 2": [],
-                "libobs.show_scene_item.Webcam": []
+                "libobs.show_scene_item.Instagram": [],
+                "libobs.show_scene_item.Text (FreeType 2)": [],
+                "libobs.show_scene_item.Twitter": [],
+                "libobs.show_scene_item.YouTube": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Game",
-            "prev_ver": 436207618,
+            "name": "Ending",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -410,66 +378,8 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 13,
+                "id_counter": 7,
                 "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 4,
-                        "locked": false,
-                        "name": "GameWindow",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 11,
-                        "locked": false,
-                        "name": "ScreenCapture",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
                     {
                         "align": 5,
                         "bounds": {
@@ -485,16 +395,16 @@
                         "group_item_backup": false,
                         "id": 1,
                         "locked": false,
-                        "name": "Webcam",
+                        "name": "AlphaGaming-intermission-ending.webm",
                         "pos": {
-                            "x": 1440.0,
-                            "y": 804.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.23593750596046448,
-                            "y": 0.2361111044883728
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -512,38 +422,9 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 5,
+                        "id": 2,
                         "locked": false,
-                        "name": "AlphaGaming-webcam-blank.webm",
-                        "pos": {
-                            "x": 1415.0,
-                            "y": 784.33331298828125
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.5453563928604126,
-                            "y": 0.54562383890151978
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 6,
-                        "locked": false,
-                        "name": "Text (FreeType 2) 2",
+                        "name": "Text (FreeType 2)",
                         "pos": {
                             "x": 10.0,
                             "y": 1017.0
@@ -555,7 +436,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -570,7 +451,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 7,
+                        "id": 3,
                         "locked": false,
                         "name": "Audio Input Capture (PulseAudio)",
                         "pos": {
@@ -599,7 +480,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 8,
+                        "id": 4,
                         "locked": false,
                         "name": "Desktop Audio",
                         "pos": {
@@ -628,18 +509,18 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 12,
+                        "id": 5,
                         "locked": false,
-                        "name": "Chat 4",
+                        "name": "Instagram",
                         "pos": {
-                            "x": 1496.4375,
-                            "y": 44.0
+                            "x": 884.0,
+                            "y": 632.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.9412500262260437,
-                            "y": 0.94166666269302368
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -657,18 +538,47 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 13,
+                        "id": 6,
                         "locked": false,
-                        "name": "Alerts",
+                        "name": "YouTube",
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1134.0,
+                            "y": 634.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.69249999523162842,
-                            "y": 0.69333332777023315
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 7,
+                        "locked": false,
+                        "name": "Twitter",
+                        "pos": {
+                            "x": 608.0,
+                            "y": 633.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -677,87 +587,6 @@
             },
             "sync": 0,
             "versioned_id": "scene",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "filters": [
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "color_filter",
-                    "mixers": 0,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Color Correction",
-                    "prev_ver": 436207618,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "hue_shift": -7.0
-                    },
-                    "sync": 0,
-                    "versioned_id": "color_filter",
-                    "volume": 1.0
-                },
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "clut_filter",
-                    "mixers": 0,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Apply LUT",
-                    "prev_ver": 436207618,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "clut_amount": 0.42999999999999999,
-                        "image_path": "/home/brodie/videos/Gaming Careers LUTs/LUTs/GamingCareers_Barrera.png"
-                    },
-                    "sync": 0,
-                    "versioned_id": "clut_filter",
-                    "volume": 1.0
-                }
-            ],
-            "flags": 0,
-            "hotkeys": {},
-            "id": "v4l2_input",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Webcam",
-            "prev_ver": 436207618,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "device_id": "/dev/video3",
-                "input": 0,
-                "pixelformat": 861030210,
-                "resolution": 125830200
-            },
-            "sync": 0,
-            "versioned_id": "v4l2_input",
             "volume": 1.0
         },
         {
@@ -780,22 +609,768 @@
             "mixers": 193,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Banner",
-            "prev_ver": 436207618,
+            "name": "AlphaGaming-intermission-pause.webm",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "clear_on_media_end": true,
                 "close_when_inactive": true,
                 "hw_decode": true,
-                "local_file": "/home/brodie/videos/streaming/AlphaGaming-Series-Premium-EN/Files/Animated-Talking-Banner/AlphaGaming-talking-banner-v1-blank.webm",
+                "local_file": "/home/brodie/videos/streaming/AlphaGaming-Series-Premium-EN/Files/Animated-Intermission-Banner/AlphaGaming-intermission-pause.webm",
                 "looping": true
             },
             "sync": 0,
             "versioned_id": "ffmpeg_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.AlphaGaming-intermission-pause.webm": [],
+                "libobs.hide_scene_item.Audio Input Capture (PulseAudio)": [],
+                "libobs.hide_scene_item.Desktop Audio": [],
+                "libobs.hide_scene_item.Instagram": [],
+                "libobs.hide_scene_item.Text (FreeType 2)": [],
+                "libobs.hide_scene_item.Twitter": [],
+                "libobs.hide_scene_item.YouTube": [],
+                "libobs.show_scene_item.AlphaGaming-intermission-pause.webm": [],
+                "libobs.show_scene_item.Audio Input Capture (PulseAudio)": [],
+                "libobs.show_scene_item.Desktop Audio": [],
+                "libobs.show_scene_item.Instagram": [],
+                "libobs.show_scene_item.Text (FreeType 2)": [],
+                "libobs.show_scene_item.Twitter": [],
+                "libobs.show_scene_item.YouTube": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Paused",
+            "prev_ver": 436273152,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 7,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "AlphaGaming-intermission-pause.webm",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Text (FreeType 2)",
+                        "pos": {
+                            "x": 10.0,
+                            "y": 1017.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Audio Input Capture (PulseAudio)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Desktop Audio",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Instagram",
+                        "pos": {
+                            "x": 886.0,
+                            "y": 633.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": false,
+                        "name": "YouTube",
+                        "pos": {
+                            "x": 1138.0,
+                            "y": 634.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 7,
+                        "locked": false,
+                        "name": "Twitter",
+                        "pos": {
+                            "x": 610.0,
+                            "y": 633.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "MediaSource.Pause": [],
+                "MediaSource.Play": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 193,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "AlphaGaming-intermission-starting.webm",
+            "prev_ver": 436273152,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "close_when_inactive": true,
+                "hw_decode": true,
+                "local_file": "/home/brodie/videos/streaming/AlphaGaming-Series-Premium-EN/Files/Animated-Intermission-Banner/AlphaGaming-intermission-starting.webm",
+                "looping": true
+            },
+            "sync": 0,
+            "versioned_id": "ffmpeg_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.AlphaGaming-intermission-starting.webm": [],
+                "libobs.hide_scene_item.Audio Input Capture (PulseAudio)": [],
+                "libobs.hide_scene_item.Desktop Audio": [],
+                "libobs.hide_scene_item.Instagram": [],
+                "libobs.hide_scene_item.Text (FreeType 2)": [],
+                "libobs.hide_scene_item.Twitter": [],
+                "libobs.hide_scene_item.YouTube": [],
+                "libobs.show_scene_item.AlphaGaming-intermission-starting.webm": [],
+                "libobs.show_scene_item.Audio Input Capture (PulseAudio)": [],
+                "libobs.show_scene_item.Desktop Audio": [],
+                "libobs.show_scene_item.Instagram": [],
+                "libobs.show_scene_item.Text (FreeType 2)": [],
+                "libobs.show_scene_item.Twitter": [],
+                "libobs.show_scene_item.YouTube": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Starting",
+            "prev_ver": 436273152,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 8,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "AlphaGaming-intermission-starting.webm",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Text (FreeType 2)",
+                        "pos": {
+                            "x": 10.0,
+                            "y": 1017.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Audio Input Capture (PulseAudio)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 5,
+                        "locked": false,
+                        "name": "Desktop Audio",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": false,
+                        "name": "Twitter",
+                        "pos": {
+                            "x": 607.0,
+                            "y": 634.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 7,
+                        "locked": false,
+                        "name": "Instagram",
+                        "pos": {
+                            "x": 887.0,
+                            "y": 633.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": false,
+                        "name": "YouTube",
+                        "pos": {
+                            "x": 1136.0,
+                            "y": 635.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Alerts": [],
+                "libobs.hide_scene_item.Audio Input Capture (PulseAudio)": [],
+                "libobs.hide_scene_item.Chat": [],
+                "libobs.hide_scene_item.Desktop Audio": [],
+                "libobs.hide_scene_item.Text (FreeType 2)": [],
+                "libobs.hide_scene_item.Webcam": [],
+                "libobs.show_scene_item.Alerts": [],
+                "libobs.show_scene_item.Audio Input Capture (PulseAudio)": [],
+                "libobs.show_scene_item.Chat": [],
+                "libobs.show_scene_item.Desktop Audio": [],
+                "libobs.show_scene_item.Text (FreeType 2)": [],
+                "libobs.show_scene_item.Webcam": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Talking",
+            "prev_ver": 436273152,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 18,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Webcam",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": false,
+                        "name": "Text (FreeType 2)",
+                        "pos": {
+                            "x": 10.0,
+                            "y": 1017.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 9,
+                        "locked": false,
+                        "name": "Audio Input Capture (PulseAudio)",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 10,
+                        "locked": false,
+                        "name": "Desktop Audio",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 11,
+                        "locked": false,
+                        "name": "Alerts",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.69249999523162842,
+                            "y": 0.69333332777023315
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 17,
+                        "locked": false,
+                        "name": "Chat",
+                        "pos": {
+                            "x": 1402.3125,
+                            "y": 62.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.9412500262260437,
+                            "y": 0.94166666269302368
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
             "volume": 1.0
         },
         {
@@ -832,7 +1407,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Game + Chat",
-            "prev_ver": 436207618,
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1145,26 +1720,126 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
+                "MediaSource.Pause": [],
+                "MediaSource.Play": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 193,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Banner",
+            "prev_ver": 436273152,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "clear_on_media_end": true,
+                "close_when_inactive": true,
+                "hw_decode": true,
+                "local_file": "/home/brodie/videos/streaming/AlphaGaming-Series-Premium-EN/Files/Animated-Talking-Banner/AlphaGaming-talking-banner-v1-blank.webm",
+                "looping": true
+            },
+            "sync": 0,
+            "versioned_id": "ffmpeg_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "clut_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Apply LUT",
+                    "prev_ver": 436273152,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "clut_amount": 0.20000000000000001,
+                        "image_path": "/home/brodie/videos/Gaming Careers LUTs/LUTs/GamingCareers_Huerta.png"
+                    },
+                    "sync": 0,
+                    "versioned_id": "clut_filter",
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "v4l2_input",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Webcam",
+            "prev_ver": 436273152,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "device_id": "/dev/video2",
+                "input": 0,
+                "pixelformat": 861030210,
+                "resolution": 125830200
+            },
+            "sync": 0,
+            "versioned_id": "v4l2_input",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.Alerts": [],
+                "libobs.hide_scene_item.AlphaGaming-webcam-blank.webm": [],
                 "libobs.hide_scene_item.Audio Input Capture (PulseAudio)": [],
-                "libobs.hide_scene_item.Chat": [],
+                "libobs.hide_scene_item.Chat 4": [],
                 "libobs.hide_scene_item.Desktop Audio": [],
-                "libobs.hide_scene_item.Text (FreeType 2)": [],
+                "libobs.hide_scene_item.GameWindow": [],
+                "libobs.hide_scene_item.ScreenCapture": [],
+                "libobs.hide_scene_item.Text (FreeType 2) 2": [],
                 "libobs.hide_scene_item.Webcam": [],
                 "libobs.show_scene_item.Alerts": [],
+                "libobs.show_scene_item.AlphaGaming-webcam-blank.webm": [],
                 "libobs.show_scene_item.Audio Input Capture (PulseAudio)": [],
-                "libobs.show_scene_item.Chat": [],
+                "libobs.show_scene_item.Chat 4": [],
                 "libobs.show_scene_item.Desktop Audio": [],
-                "libobs.show_scene_item.Text (FreeType 2)": [],
+                "libobs.show_scene_item.GameWindow": [],
+                "libobs.show_scene_item.ScreenCapture": [],
+                "libobs.show_scene_item.Text (FreeType 2) 2": [],
                 "libobs.show_scene_item.Webcam": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Talking",
-            "prev_ver": 436207618,
+            "name": "Game",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1172,7 +1847,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 18,
+                "id_counter": 13,
                 "items": [
                     {
                         "align": 5,
@@ -1187,96 +1862,9 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 1,
+                        "id": 4,
                         "locked": false,
-                        "name": "Webcam",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 8,
-                        "locked": false,
-                        "name": "Text (FreeType 2)",
-                        "pos": {
-                            "x": 10.0,
-                            "y": 1017.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 9,
-                        "locked": false,
-                        "name": "Audio Input Capture (PulseAudio)",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 10,
-                        "locked": false,
-                        "name": "Desktop Audio",
+                        "name": "GameWindow",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1305,7 +1893,7 @@
                         "group_item_backup": false,
                         "id": 11,
                         "locked": false,
-                        "name": "Alerts",
+                        "name": "ScreenCapture",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1313,85 +1901,12 @@
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.69249999523162842,
-                            "y": 0.69333332777023315
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
                     },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 17,
-                        "locked": false,
-                        "name": "Chat",
-                        "pos": {
-                            "x": 1402.3125,
-                            "y": 62.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.9412500262260437,
-                            "y": 0.94166666269302368
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "versioned_id": "scene",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.AlphaGaming-intermission-starting.webm": [],
-                "libobs.hide_scene_item.Audio Input Capture (PulseAudio)": [],
-                "libobs.hide_scene_item.Desktop Audio": [],
-                "libobs.hide_scene_item.Instagram": [],
-                "libobs.hide_scene_item.Text (FreeType 2)": [],
-                "libobs.hide_scene_item.Twitter": [],
-                "libobs.hide_scene_item.YouTube": [],
-                "libobs.show_scene_item.AlphaGaming-intermission-starting.webm": [],
-                "libobs.show_scene_item.Audio Input Capture (PulseAudio)": [],
-                "libobs.show_scene_item.Desktop Audio": [],
-                "libobs.show_scene_item.Instagram": [],
-                "libobs.show_scene_item.Text (FreeType 2)": [],
-                "libobs.show_scene_item.Twitter": [],
-                "libobs.show_scene_item.YouTube": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Starting",
-            "prev_ver": 436207618,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": false,
-                "id_counter": 8,
-                "items": [
                     {
                         "align": 5,
                         "bounds": {
@@ -1407,74 +1922,16 @@
                         "group_item_backup": false,
                         "id": 1,
                         "locked": false,
-                        "name": "AlphaGaming-intermission-starting.webm",
+                        "name": "Webcam",
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1440.0,
+                            "y": 804.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 2,
-                        "locked": false,
-                        "name": "Text (FreeType 2)",
-                        "pos": {
-                            "x": 10.0,
-                            "y": 1017.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 3,
-                        "locked": false,
-                        "name": "Audio Input Capture (PulseAudio)",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.23593750596046448,
+                            "y": 0.2361111044883728
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1494,16 +1951,16 @@
                         "group_item_backup": false,
                         "id": 5,
                         "locked": false,
-                        "name": "Desktop Audio",
+                        "name": "AlphaGaming-webcam-blank.webm",
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1415.0,
+                            "y": 784.33331298828125
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.5453563928604126,
+                            "y": 0.54562383890151978
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1523,10 +1980,10 @@
                         "group_item_backup": false,
                         "id": 6,
                         "locked": false,
-                        "name": "Twitter",
+                        "name": "Text (FreeType 2) 2",
                         "pos": {
-                            "x": 607.0,
-                            "y": 634.0
+                            "x": 10.0,
+                            "y": 1017.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -1535,7 +1992,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -1552,10 +2009,10 @@
                         "group_item_backup": false,
                         "id": 7,
                         "locked": false,
-                        "name": "Instagram",
+                        "name": "Audio Input Capture (PulseAudio)",
                         "pos": {
-                            "x": 887.0,
-                            "y": 633.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -1581,203 +2038,6 @@
                         "group_item_backup": false,
                         "id": 8,
                         "locked": false,
-                        "name": "YouTube",
-                        "pos": {
-                            "x": 1136.0,
-                            "y": 635.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "versioned_id": "scene",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "MediaSource.Pause": [],
-                "MediaSource.Play": [],
-                "MediaSource.Restart": [],
-                "MediaSource.Stop": [],
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "ffmpeg_source",
-            "mixers": 193,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "AlphaGaming-intermission-starting.webm",
-            "prev_ver": 436207618,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "close_when_inactive": true,
-                "hw_decode": true,
-                "local_file": "/home/brodie/videos/streaming/AlphaGaming-Series-Premium-EN/Files/Animated-Intermission-Banner/AlphaGaming-intermission-starting.webm",
-                "looping": true
-            },
-            "sync": 0,
-            "versioned_id": "ffmpeg_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.AlphaGaming-intermission-pause.webm": [],
-                "libobs.hide_scene_item.Audio Input Capture (PulseAudio)": [],
-                "libobs.hide_scene_item.Desktop Audio": [],
-                "libobs.hide_scene_item.Instagram": [],
-                "libobs.hide_scene_item.Text (FreeType 2)": [],
-                "libobs.hide_scene_item.Twitter": [],
-                "libobs.hide_scene_item.YouTube": [],
-                "libobs.show_scene_item.AlphaGaming-intermission-pause.webm": [],
-                "libobs.show_scene_item.Audio Input Capture (PulseAudio)": [],
-                "libobs.show_scene_item.Desktop Audio": [],
-                "libobs.show_scene_item.Instagram": [],
-                "libobs.show_scene_item.Text (FreeType 2)": [],
-                "libobs.show_scene_item.Twitter": [],
-                "libobs.show_scene_item.YouTube": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Paused",
-            "prev_ver": 436207618,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": false,
-                "id_counter": 7,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 1,
-                        "locked": false,
-                        "name": "AlphaGaming-intermission-pause.webm",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 2,
-                        "locked": false,
-                        "name": "Text (FreeType 2)",
-                        "pos": {
-                            "x": 10.0,
-                            "y": 1017.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 3,
-                        "locked": false,
-                        "name": "Audio Input Capture (PulseAudio)",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 4,
-                        "locked": false,
                         "name": "Desktop Audio",
                         "pos": {
                             "x": 0.0,
@@ -1805,18 +2065,18 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 5,
+                        "id": 12,
                         "locked": false,
-                        "name": "Instagram",
+                        "name": "Chat 4",
                         "pos": {
-                            "x": 886.0,
-                            "y": 633.0
+                            "x": 1496.4375,
+                            "y": 44.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.9412500262260437,
+                            "y": 0.94166666269302368
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1834,47 +2094,18 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 6,
+                        "id": 13,
                         "locked": false,
-                        "name": "YouTube",
+                        "name": "Alerts",
                         "pos": {
-                            "x": 1138.0,
-                            "y": 634.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
                             "x": 0.0,
                             "y": 0.0
                         },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 7,
-                        "locked": false,
-                        "name": "Twitter",
-                        "pos": {
-                            "x": 610.0,
-                            "y": 633.0
-                        },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.69249999523162842,
+                            "y": 0.69333332777023315
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1883,328 +2114,6 @@
             },
             "sync": 0,
             "versioned_id": "scene",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "MediaSource.Pause": [],
-                "MediaSource.Play": [],
-                "MediaSource.Restart": [],
-                "MediaSource.Stop": [],
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "ffmpeg_source",
-            "mixers": 193,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "AlphaGaming-intermission-pause.webm",
-            "prev_ver": 436207618,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "close_when_inactive": true,
-                "hw_decode": true,
-                "local_file": "/home/brodie/videos/streaming/AlphaGaming-Series-Premium-EN/Files/Animated-Intermission-Banner/AlphaGaming-intermission-pause.webm",
-                "looping": true
-            },
-            "sync": 0,
-            "versioned_id": "ffmpeg_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.AlphaGaming-intermission-ending.webm": [],
-                "libobs.hide_scene_item.Audio Input Capture (PulseAudio)": [],
-                "libobs.hide_scene_item.Desktop Audio": [],
-                "libobs.hide_scene_item.Instagram": [],
-                "libobs.hide_scene_item.Text (FreeType 2)": [],
-                "libobs.hide_scene_item.Twitter": [],
-                "libobs.hide_scene_item.YouTube": [],
-                "libobs.show_scene_item.AlphaGaming-intermission-ending.webm": [],
-                "libobs.show_scene_item.Audio Input Capture (PulseAudio)": [],
-                "libobs.show_scene_item.Desktop Audio": [],
-                "libobs.show_scene_item.Instagram": [],
-                "libobs.show_scene_item.Text (FreeType 2)": [],
-                "libobs.show_scene_item.Twitter": [],
-                "libobs.show_scene_item.YouTube": []
-            },
-            "id": "scene",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Ending",
-            "prev_ver": 436207618,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "custom_size": false,
-                "id_counter": 7,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 1,
-                        "locked": false,
-                        "name": "AlphaGaming-intermission-ending.webm",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 2,
-                        "locked": false,
-                        "name": "Text (FreeType 2)",
-                        "pos": {
-                            "x": 10.0,
-                            "y": 1017.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 3,
-                        "locked": false,
-                        "name": "Audio Input Capture (PulseAudio)",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 4,
-                        "locked": false,
-                        "name": "Desktop Audio",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 5,
-                        "locked": false,
-                        "name": "Instagram",
-                        "pos": {
-                            "x": 884.0,
-                            "y": 632.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 6,
-                        "locked": false,
-                        "name": "YouTube",
-                        "pos": {
-                            "x": 1134.0,
-                            "y": 634.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 7,
-                        "locked": false,
-                        "name": "Twitter",
-                        "pos": {
-                            "x": 608.0,
-                            "y": 633.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
-            },
-            "sync": 0,
-            "versioned_id": "scene",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "MediaSource.Pause": [],
-                "MediaSource.Play": [],
-                "MediaSource.Restart": [],
-                "MediaSource.Stop": [],
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "ffmpeg_source",
-            "mixers": 193,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "AlphaGaming-intermission-ending.webm",
-            "prev_ver": 436207618,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "clear_on_media_end": false,
-                "close_when_inactive": true,
-                "hw_decode": true,
-                "local_file": "/home/brodie/videos/streaming/AlphaGaming-Series-Premium-EN/Files/Animated-Intermission-Banner/AlphaGaming-intermission-ending.webm",
-                "looping": true
-            },
-            "sync": 0,
-            "versioned_id": "ffmpeg_source",
             "volume": 1.0
         },
         {
@@ -2218,15 +2127,15 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Window Capture (Xcomposite) 2",
-            "prev_ver": 436207618,
+            "name": "GameWindow",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "capture_window": "27262983\r\nBogosort - Wikipedia - Brave\r\nbrave-browser"
+                "capture_window": "109051924\r\nBastion\r\nBastion.bin.x86_64"
             },
             "sync": 0,
             "versioned_id": "xcomposite_input",
@@ -2237,84 +2146,107 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
-            "filters": [
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "noise_suppress_filter",
-                    "mixers": 255,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Noise Suppression",
-                    "prev_ver": 436207618,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "method": "rnnoise"
-                    },
-                    "sync": 0,
-                    "versioned_id": "noise_suppress_filter_v2",
-                    "volume": 1.0
+            "flags": 0,
+            "hotkeys": {
+                "MediaSource.Pause": [],
+                "MediaSource.Play": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 196,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "AlphaGaming-webcam-blank.webm",
+            "prev_ver": 436273152,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "close_when_inactive": true,
+                "hw_decode": true,
+                "local_file": "/home/brodie/videos/streaming/AlphaGaming-Series-Premium-EN/Files/Animated-Webcam-Overlay/AlphaGaming-webcam-blank.webm",
+                "looping": true
+            },
+            "sync": 0,
+            "versioned_id": "ffmpeg_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_ft2_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Text (FreeType 2)",
+            "prev_ver": 436273152,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "font": {
+                    "face": "Bebas Neue",
+                    "flags": 1,
+                    "size": 60,
+                    "style": "Bold"
                 },
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "noise_gate_filter",
-                    "mixers": 255,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Noise Gate",
-                    "prev_ver": 436207618,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "close_threshold": -70.0,
-                        "open_threshold": -40.0
-                    },
-                    "sync": 0,
-                    "versioned_id": "noise_gate_filter",
-                    "volume": 1.0
+                "from_file": true,
+                "text_file": "/home/brodie/videos/streaming/sound.txt"
+            },
+            "sync": 0,
+            "versioned_id": "text_ft2_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_ft2_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Text (FreeType 2) 2",
+            "prev_ver": 436273152,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "font": {
+                    "face": "Bebas Neue",
+                    "flags": 1,
+                    "size": 60,
+                    "style": "Bold"
                 },
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "compressor_filter",
-                    "mixers": 255,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Compressor",
-                    "prev_ver": 436207618,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "ratio": 4.0
-                    },
-                    "sync": 0,
-                    "versioned_id": "compressor_filter",
-                    "volume": 1.0
-                }
-            ],
+                "from_file": true,
+                "text_file": "/home/brodie/videos/streaming/sound.txt"
+            },
+            "sync": 0,
+            "versioned_id": "text_ft2_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
             "flags": 0,
             "hotkeys": {
                 "libobs.mute": [],
@@ -2322,22 +2254,49 @@
                 "libobs.push-to-talk": [],
                 "libobs.unmute": []
             },
-            "id": "pulse_input_capture",
+            "id": "pulse_output_capture",
             "mixers": 193,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Audio Input Capture (PulseAudio)",
-            "prev_ver": 436207618,
+            "name": "Desktop Audio",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "device_id": "alsa_input.usb-Blue_Microphones_Yeti_Stereo_Microphone_797_2018_12_02_00943-00.analog-stereo"
+                "device_id": "alsa_output.pci-0000_0b_00.4.analog-stereo.monitor"
             },
             "sync": 0,
-            "versioned_id": "pulse_input_capture",
+            "versioned_id": "pulse_output_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "linuxbrowser.reloadpage": []
+            },
+            "id": "linuxbrowser-source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Alerts",
+            "prev_ver": 436273152,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "url": "https://streamlabs.com/alert-box/v3/1CEDCCD7C4A03077078F"
+            },
+            "sync": 0,
+            "versioned_id": "linuxbrowser-source",
             "volume": 1.0
         },
         {
@@ -2347,28 +2306,22 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "text_ft2_source",
+            "id": "xshm_input",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Twitter",
-            "prev_ver": 436207618,
+            "name": "ScreenCapture",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "font": {
-                    "face": "Bebas Neue",
-                    "flags": 1,
-                    "size": 36,
-                    "style": "Bold"
-                },
-                "text": "BrodieOnLinux"
+                "screen": 0
             },
             "sync": 0,
-            "versioned_id": "text_ft2_source_v2",
+            "versioned_id": "xshm_input",
             "volume": 1.0
         },
         {
@@ -2377,29 +2330,27 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
-            "id": "text_ft2_source",
+            "hotkeys": {
+                "linuxbrowser.reloadpage": []
+            },
+            "id": "linuxbrowser-source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Instagram",
-            "prev_ver": 436207618,
+            "name": "Chat",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "font": {
-                    "face": "Bebas Neue",
-                    "flags": 1,
-                    "size": 36,
-                    "style": "Bold"
-                },
-                "text": "TechOverTea"
+                "height": 800,
+                "url": "https://streamlabs.com/widgets/chat-box/v1/1CEDCCD7C4A03077078F",
+                "width": 550
             },
             "sync": 0,
-            "versioned_id": "text_ft2_source_v2",
+            "versioned_id": "linuxbrowser-source",
             "volume": 1.0
         },
         {
@@ -2408,29 +2359,57 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
-            "id": "text_ft2_source",
+            "hotkeys": {
+                "linuxbrowser.reloadpage": []
+            },
+            "id": "linuxbrowser-source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "YouTube",
-            "prev_ver": 436207618,
+            "name": "Chat 3",
+            "prev_ver": 436273152,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "font": {
-                    "face": "Bebas Neue",
-                    "flags": 1,
-                    "size": 34,
-                    "style": "Bold"
-                },
-                "text": "BrodieRobertson"
+                "height": 550,
+                "url": "https://streamlabs.com/widgets/chat-box/v1/1CEDCCD7C4A03077078F",
+                "width": 420
             },
             "sync": 0,
-            "versioned_id": "text_ft2_source_v2",
+            "versioned_id": "linuxbrowser-source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "linuxbrowser.reloadpage": []
+            },
+            "id": "linuxbrowser-source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Chat 4",
+            "prev_ver": 436273152,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "height": 800,
+                "reload_on_scene": false,
+                "url": "https://streamlabs.com/widgets/chat-box/v1/1CEDCCD7C4A03077078F",
+                "width": 450
+            },
+            "sync": 0,
+            "versioned_id": "linuxbrowser-source",
             "volume": 1.0
         }
     ],
