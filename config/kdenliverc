@@ -13,10 +13,10 @@ DisplayPort-0 DisplayPort-1 HDMI-A-0 Height 1080=1039
 DisplayPort-0 DisplayPort-1 HDMI-A-0 Width 1920=949
 DisplayPort-0 DisplayPort-1 HDMI-A-0 XPosition=1927
 DisplayPort-0 DisplayPort-1 HDMI-A-0 YPosition=34
-DisplayPort-0 DisplayPort-1 Height 1080=1039
-DisplayPort-0 DisplayPort-1 Width 1920=1906
-DisplayPort-0 DisplayPort-1 XPosition=1927
-DisplayPort-0 DisplayPort-1 YPosition=34
+DisplayPort-0 DisplayPort-1 Height 1080=483
+DisplayPort-0 DisplayPort-1 Width 1920=947
+DisplayPort-0 DisplayPort-1 XPosition=965
+DisplayPort-0 DisplayPort-1 YPosition=384
 DisplayPort-0 HDMI-A-0 DisplayPort-1 Height 1080=1039
 DisplayPort-0 HDMI-A-0 DisplayPort-1 Width 1920=1906
 DisplayPort-0 HDMI-A-0 DisplayPort-1 XPosition=1927
@@ -31,7 +31,7 @@ DisplayPort-0 XPosition=12
 DisplayPort-0 YPosition=44
 Height 1080=1024
 Height 270=256
-State=AAAA/wAAAAD9AAAAAgAAAAEAAAFkAAABVPwCAAAAAfsAAAAKAG0AaQB4AGUAcgEAAAKfAAABVAAAALgA////AAAAAgAAB3IAAAJ0/AEAAAAK+wAAABQAcwBjAHIAZQBlAG4AZwByAGEAYgAAAAAA/////wAAAHoA////+wAAABoAYQB1AGQAaQBvAHMAcABlAGMAdAByAHUAbQAAAAAA/////wAAAGcA/////AAAAAAAAAFOAAAAewD////6AAAAAAEAAAAF+wAAABYAcAByAG8AagBlAGMAdABfAGIAaQBuAQAAAAD/////AAAARgD////7AAAAHgB0AHIAYQBuAHMAaQB0AGkAbwBuAF8AbABpAHMAdAEAAAAA/////wAAAAAA////+wAAABYAZQBmAGYAZQBjAHQAXwBsAGkAcwB0AQAAAAD/////AAAAAAD////7AAAAHgBjAGwAaQBwAF8AcAByAG8AcABlAHIAdABpAGUAcwEAAAAA/////wAAAEQA////+wAAABgAdQBuAGQAbwBfAGgAaQBzAHQAbwByAHkBAAAAAP////8AAABGAP////wAAAFUAAADCwAAAUAA////+gAAAAECAAAAA/sAAAAYAGMAbABpAHAAXwBtAG8AbgBpAHQAbwByAQAAAEQAAAHNAAAAxwD///77AAAAGABlAGYAZgBlAGMAdABfAHMAdABhAGMAawEAAAAA/////wAAAFsA///++wAAAA4AbABpAGIAcgBhAHIAeQEAAAAA/////wAAAIQA///+/AAABGUAAAMNAAABQAD////6AAAAAAIAAAAC+wAAAB4AcAByAG8AagBlAGMAdABfAG0AbwBuAGkAdABvAHIBAAAAvwAAASwAAADbAP////sAAAAYAG4AbwB0AGUAcwBfAHcAaQBkAGcAZQB0AQAAAAD/////AAAAdgD///77AAAAFgB2AGUAYwB0AG8AcgBzAGMAbwBwAGUAAAAAAP////8AAAEcAP////sAAAAQAHcAYQB2AGUAZgBvAHIAbQAAAAAA/////wAAAJsA////+wAAABQAcgBnAGIAXwBwAGEAcgBhAGQAZQAAAAAA/////wAAAJYA////+wAAABIAaABpAHMAdABvAGcAcgBhAG0AAAAAAP////8AAAE0AP////sAAAASAFMAdQBiAHQAaQB0AGwAZQBzAAAAAAD/////AAAAxgD///8AAAYIAAABVAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABgAZQB4AHQAcgBhAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAgAAAAEAAAFkAAAAuPwCAAAAAfsAAAAKAG0AaQB4AGUAcgEAAAEPAAAAuAAAALgA////AAAAAgAAA7MAAADk/AEAAAAK+wAAABQAcwBjAHIAZQBlAG4AZwByAGEAYgAAAAAA/////wAAAHoA////+wAAABoAYQB1AGQAaQBvAHMAcABlAGMAdAByAHUAbQAAAAAA/////wAAAGcA/////AAAAAAAAAClAAAAewD////6AAAAAAEAAAAF+wAAABYAcAByAG8AagBlAGMAdABfAGIAaQBuAQAAAAD/////AAAARgD////7AAAAHgB0AHIAYQBuAHMAaQB0AGkAbwBuAF8AbABpAHMAdAEAAAAA/////wAAAAAA////+wAAABYAZQBmAGYAZQBjAHQAXwBsAGkAcwB0AQAAAAD/////AAAAAAD////7AAAAHgBjAGwAaQBwAF8AcAByAG8AcABlAHIAdABpAGUAcwEAAAAA/////wAAAEQA////+wAAABgAdQBuAGQAbwBfAGgAaQBzAHQAbwByAHkBAAAAAP////8AAABGAP////wAAACrAAABWgAAAUAA////+gAAAAACAAAAA/sAAAAYAGMAbABpAHAAXwBtAG8AbgBpAHQAbwByAQAAAEQAAAHNAAAAxwD///77AAAAGABlAGYAZgBlAGMAdABfAHMAdABhAGMAawEAAAAA/////wAAAGIA///++wAAAA4AbABpAGIAcgBhAHIAeQEAAAAA/////wAAAIQA///+/AAAAgsAAAGoAAABQAD////6AAAAAAIAAAAC+wAAAB4AcAByAG8AagBlAGMAdABfAG0AbwBuAGkAdABvAHIBAAAAvwAAASwAAADHAP///vsAAAAYAG4AbwB0AGUAcwBfAHcAaQBkAGcAZQB0AQAAAAD/////AAAAdgD///77AAAAFgB2AGUAYwB0AG8AcgBzAGMAbwBwAGUAAAAAAP////8AAAEcAP////sAAAAQAHcAYQB2AGUAZgBvAHIAbQAAAAAA/////wAAAJsA////+wAAABQAcgBnAGIAXwBwAGEAcgBhAGQAZQAAAAAA/////wAAAJYA////+wAAABIAaABpAHMAdABvAGcAcgBhAG0AAAAAAP////8AAAE0AP////sAAAASAFMAdQBiAHQAaQB0AGwAZQBzAAAAAAD/////AAAAxgD///8AAAJJAAAAuAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABgAZQB4AHQAcgBhAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1920=941
 Width 480=474
@@ -41,29 +41,29 @@ ToolButtonStyle=IconOnly
 
 [Recent Dirs]
 KdenliveClipFolder[$e]=$HOME/videos/youtube/outro/,$HOME/videos/youtube/patreon/,$HOME/videos/youtube/asset/Generic/
-KdenliveProjectsFolder[$e]=$HOME/videos/youtube/ToUpload/ssh,$HOME/videos/podcast/ToUpload/StudyingJapanese,$HOME/videos/youtube/ToUpload/studio-tour
+KdenliveProjectsFolder[$e]=$HOME,$HOME/videos/streaming/ToUpload/Cult-of-rms,$HOME/videos/streaming/ToUpload/tisiphyone
 
 [Recent Files]
-File1[$e]=$HOME/videos/podcast/ToUpload/TechOverTeaEp47-Soundcheck/soundcheck.kdenlive
-File10[$e]=$HOME/videos/youtube/ToUpload/ssh/ssh.kdenlive
-File2[$e]=$HOME/videos/podcast/ToUpload/Parler/parler.kdenlive
-File3[$e]=$HOME/videos/podcast/ToUpload/Postal/postal.kdenlive
-File4[$e]=$HOME/videos/podcast/ToUpload/HandheldN64/handheldn64.kdenlive
-File5[$e]=$HOME/videos/streaming/ToUpload/lune-stalker/lune-stalker.kdenlive
-File6[$e]=$HOME/videos/streaming/ToUpload/everything-is-a-door/everything-is-a-door.kdenlive
-File7[$e]=$HOME/videos/streaming/ToUpload/buggy-mess/buggy-mess.kdenlive
-File8[$e]=$HOME/videos/youtube/ToUpload/studio-tour/studio-tour.kdenlive
-File9[$e]=$HOME/videos/podcast/ToUpload/StudyingJapanese/japanese.kdenlive
-Name1[$e]=soundcheck.kdenlive
-Name10[$e]=ssh.kdenlive
-Name2[$e]=parler.kdenlive
-Name3[$e]=postal.kdenlive
-Name4[$e]=handheldn64.kdenlive
-Name5[$e]=lune-stalker.kdenlive
-Name6[$e]=everything-is-a-door.kdenlive
-Name7[$e]=buggy-mess.kdenlive
-Name8[$e]=studio-tour.kdenlive
-Name9[$e]=japanese.kdenlive
+File1[$e]=$HOME/videos/streaming/ToUpload/completing-elysium/completing-elysium.kdenlive
+File10[$e]=$HOME/test.kdenlive
+File2[$e]=$HOME/videos/streaming/ToUpload/flamerang/flamerang.kdenlive
+File3[$e]=$HOME/videos/streaming/ToUpload/laggy-cutscenes/lag.kdenlive
+File4[$e]=$HOME/videos/streaming/ToUpload/exactly-as-planned/exactly-as-planned.kdenlive
+File5[$e]=$HOME/videos/podcast/ToUpload/FanArt/FanArt.kdenlive
+File6[$e]=$HOME/videos/podcast/ToUpload/JapaneseHarryPotter/JapaneseHarryPotter.kdenlive
+File7[$e]=$HOME/videos/podcast/ToUpload/SteamQualityControl/SteamQualityControl.kdenlive
+File8[$e]=$HOME/videos/podcast/ToUpload/TechOverTeaEp49/Ep49.kdenlive
+File9[$e]=$HOME/videos/streaming/ToUpload/tisiphyone/tisiphyone.kdenlive
+Name1[$e]=completing-elysium.kdenlive
+Name10[$e]=test.kdenlive
+Name2[$e]=flamerang.kdenlive
+Name3[$e]=lag.kdenlive
+Name4[$e]=exactly-as-planned.kdenlive
+Name5[$e]=FanArt.kdenlive
+Name6[$e]=JapaneseHarryPotter.kdenlive
+Name7[$e]=SteamQualityControl.kdenlive
+Name8[$e]=Ep49.kdenlive
+Name9[$e]=tisiphyone.kdenlive
 
 [Scope_Histogram]
 autoRefresh=true
@@ -124,7 +124,7 @@ ColorScheme=Breeze High Contrast
 
 [bin]
 bin_zoom=2
-treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAIfgAAAAYAAAAGAAAAZAAAAAUAAABkAAAABAAAAGQAAAADAAAAZAAAAAIAAABkAAAAAQAAADgAAAFAAAAACAEBAAEAAAAAAAAAAAAAAABk/////wAAAIEAAAAAAAAACAAAAPEAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAE8AAAABAAAAAAAAA+gAAAAAMA==
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAIfgAAAAYAAAAGAAAAZAAAAAUAAABkAAAABAAAAGQAAAADAAAAZAAAAAIAAABkAAAAAQAAADgAAAEhAAAACAEBAAEAAAAAAAAAAAAAAABk/////wAAAIEAAAAAAAAACAAAAPEAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAADAAAAABAAAAAAAAA+gAAAAAMA==
 
 [capture]
 decklink_capturedevice=4294967295

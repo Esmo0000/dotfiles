@@ -10,7 +10,9 @@ let g:coc_global_extensions = [
 	\ 'coc-json',
 	\ 'coc-angular',
 	\ 'coc-explorer',
-	\ 'coc-vimtex'
+	\ 'coc-vimtex',
+  \ 'coc-python',
+  \ 'coc-marketplace'
 	\ ]
 
 noremap <silent> <A-f> :CocCommand explorer<CR>

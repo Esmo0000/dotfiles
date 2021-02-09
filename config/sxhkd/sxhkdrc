@@ -112,6 +112,12 @@ super + {x, u, t, p}
 super + {b, c, e}
   {bookmenu -p "Select a bookmark" -b ~/.config/bookmenu/browser -co $BROWSER, bookmenu -p "Select a config" -b ~/.config/bookmenu/configs -co "$TERMINAL -e nvim"}
 
+super + e
+  dmusic
+
+super + v
+  dvideospace
+
 F7
   toggletouch
 

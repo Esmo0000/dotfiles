@@ -1,5 +1,7 @@
 if !exists('g:vscode')
 	source ~/.config/nvim/basic-setting.vim
+	source ~/.config/nvim/plugconfig/indentline.vim
+	source ~/.config/nvim/plugconfig/vifm.vim
 	source ~/.config/nvim/plugconfig/vimwiki.vim
 	source ~/.config/nvim/plugconfig/easy-motion.vim
 	source ~/.config/nvim/plugconfig/undotree.vim

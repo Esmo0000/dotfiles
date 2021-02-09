@@ -37,17 +37,15 @@
     "H": "open:split",
     "S": "open:split:plain",
     "V": "open:vsplit",
-    "t": "open:tab",
     "<bs>": "gotoParent",
-    "gp": "preview:labeling",
 
     "Y": "copyFile",
     "X": "cutFile",
     "P": "pasteFile",
     "dd": "delete",
 
-    "T": "addFile",
-    "D": "addDirectory",
+    "mf": "addFile",
+    "md": "addDirectory",
     "r": "rename",
 
     ".": "toggleHidden",
@@ -68,12 +66,9 @@
     "[[": "sourcePrev",
     "]]": "sourceNext",
 
-    "[d": "diagnosticPrev",
-    "]d": "diagnosticNext",
-
-    "[c": "gitPrev",
-    "]c": "gitNext",
-    "<<": "gitStage",
-    ">>": "gitUnstage"
+    "gp": "gitPrev",
+    "gn": "gitNext",
+    "ga": "gitStage",
+    "gr": "gitUnstage"
   }
 }

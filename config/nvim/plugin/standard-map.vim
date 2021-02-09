@@ -1,8 +1,22 @@
+map <F1> <Nop>
+imap <F1> <Nop>
+
 " Basic file system commands
 nnoremap <A-o> :!touch<Space>
 nnoremap <A-e> :!crf<Space>
 nnoremap <A-d> :!mkdir<Space>
 nnoremap <A-m> :!mv<Space>%<Space>
+
+" Tab
+nnoremap <Tab> gt
+nnoremap <S-Tab> gT
+nnoremap <silent> <A-t> :tabnew<CR>
+nnoremap <silent> <A-2> :tabmove +<CR>
+nnoremap <silent> <A-1> :tabmove -<CR>
+
+" center screen after search
+nnoremap n nzzzv
+nnoremap N Nzzzv
 
 " Fix Y behaviour
 nmap Y y$

@@ -1,4 +1,4 @@
-nnoremap <A-t> :UndotreeToggle<CR>
+nnoremap <A-u> :UndotreeToggle<CR>
 
 let g:undotree_RelativeTimestamp = 1
 let g:undotree_ShortIndicators = 1
