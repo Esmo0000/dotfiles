@@ -1,7 +1,0 @@
-{
-    "bitrate": 10000,
-    "level": 40,
-    "profile": 578,
-    "qp": 10,
-    "rate_control": "CQP"
-}

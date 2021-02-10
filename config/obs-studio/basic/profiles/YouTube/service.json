@@ -1,9 +1,0 @@
-{
-    "settings": {
-        "bwtest": false,
-        "key": "re_3469556_e0bb2f59e44d7a61b022",
-        "server": "rtmp://live.restream.io/live",
-        "service": "Restream.io"
-    },
-    "type": "rtmp_common"
-}
